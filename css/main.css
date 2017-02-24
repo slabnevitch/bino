@@ -34,7 +34,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased
   /* overflow-x: hidden; */ }
 
 body input:focus:required:invalid,
@@ -48,12 +48,12 @@ body textarea:required:valid {
 
 .wrapper {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 0 auto
   /* outline: 3px solid green; */ }
 
 section {
   padding: 149px 0; }
-  section h1 {
+  section h2 {
     margin: 0;
     margin-bottom: 30px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -107,11 +107,7 @@ section {
   text-align: center;
   vertical-align: middle;
   color: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25); }
   .button.button--deactive, .button--deactive.button--small {
     height: 52px;
@@ -154,8 +150,6 @@ section {
   height: 7px;
   display: inline-block;
   position: relative;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   background-color: #e74c3c;
   vertical-align: middle; }
@@ -203,7 +197,7 @@ section {
 .header {
   width: 100%;
   position: relative;
-  overflow-y: hidden;
+  overflow-y: hidden
   /* &:after{
   @extend .all-before;
   width: 74px;
@@ -251,7 +245,6 @@ section {
     height: 125px;
     bottom: 0;
     background: url(../img/tri.png) bottom center no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
     z-index: 2; }
   .header .header__wrapper {
@@ -269,7 +262,6 @@ section {
     width: 100%;
     height: 992px;
     background: url(../img/sl-img-01.jpg) center top repeat-x;
-    -webkit-background-size: cover;
     background-size: cover; }
     .header .sl-item.sl-item-2 {
       background: url(../img/sl-img-02.jpg) center top repeat-x; }
@@ -350,7 +342,7 @@ section {
 .about {
   padding: 88px 0 110px 0;
   position: relative;
-  border-bottom: 1px solid #e6e7eb;
+  border-bottom: 1px solid #e6e7eb
   /* &:after{
   	@extend .all-before;
   	width: 74px;
@@ -597,13 +589,11 @@ section {
 /*--------------------------------CASE STUDY-------------------------------*/
 .case-study {
   background: #f4f5f9 url() 0 0 no-repeat;
-  -webkit-background-size: 50%;
   background-size: 50%; }
   .case-study .wrapper {
     height: 720px;
     padding-top: 4%;
     background: url(../img/hl-bg.jpg) 100% 0 no-repeat;
-    -webkit-background-size: 50%;
     background-size: 50%; }
   .case-study .sect-title {
     margin-bottom: 5px; }
@@ -653,8 +643,6 @@ section {
   width: 12px;
   height: 12px;
   margin: 0 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
   background-color: #e1e2e6; }
@@ -668,7 +656,6 @@ section {
   /* width: 100%; */
   padding: 156px 0 54px 0;
   background: #fff url(../img/middle-ico-bg.jpg) center top no-repeat;
-  -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed; }
   .features .wrapper {
@@ -798,7 +785,6 @@ section {
   min-height: 744px;
   padding: 0;
   background: url(../img/bg-team.jpg) center top no-repeat;
-  -webkit-background-size: cover;
   background-size: cover; }
   .team .wrapper {
     position: relative;
@@ -815,8 +801,6 @@ section {
     width: 78px;
     height: 78px;
     border-width: 5px;
-    -webkit-box-shadow: 0px 15px 30px 0px black;
-    -moz-box-shadow: 0px 15px 30px 0px black;
     box-shadow: 0px 15px 30px 0px black; }
   .staffer-item:hover .stuff-paranja {
     display: block;
@@ -828,8 +812,6 @@ section {
   width: 50px;
   height: 50px;
   border: 3px solid #e74c3c;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   z-index: 5; }
 
@@ -866,8 +848,6 @@ section {
   position: absolute;
   z-index: 6;
   background-color: rgba(231, 76, 60, 0.5);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%; }
 
 .staffer__name, .staffer__name--hidden {
@@ -948,8 +928,6 @@ section {
   height: 100px;
   margin-bottom: 23px;
   background: #fff url(../img/brands/logos-sprite.png) 0 0 no-repeat;
-  -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.1); }
 
 .callback {
@@ -1013,7 +991,6 @@ section {
   padding: 149px 0;
   text-align: center;
   background: #000 url(../img/footer-bg.jpg) center top no-repeat;
-  -webkit-background-size: cover;
   background-size: cover; }
   .footer .sect-text {
     margin-bottom: 52px;
@@ -1054,8 +1031,6 @@ section {
   position: fixed;
   right: 105px;
   bottom: 117px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   background: #e74c3c url(../img/icons/up-arrow.png) 50% 50% no-repeat;
   cursor: pointer; }
@@ -1082,8 +1057,6 @@ section {
   width: 481px;
   padding: 72px 52px;
   position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #e74c3c;
   color: #fff;
@@ -1135,5 +1108,4 @@ section {
 .hidden {
   display: none;
   margin: 0 auto; }
-
 /*# sourceMappingURL=main.css.map */
